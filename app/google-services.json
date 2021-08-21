@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "341556858735",
+    "project_id": "game-8e110",
+    "storage_bucket": "game-8e110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341556858735:android:e3738918698f94b8ba629a",
+        "android_client_info": {
+          "package_name": "com.ankush.tictactoeonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341556858735-h0l3rkomvv26r16118k2deh2dbrhhr7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ankush.tictactoeonline",
+            "certificate_hash": "631493d679b8c1e98d9eee28a5661f6b0c576bb3"
+          }
+        },
+        {
+          "client_id": "341556858735-mp8ferevsfhq9onerecfjbcasnu8br9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-feE1JsXvPYi5cTq5Fd2GMBPorpoSfEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341556858735-mp8ferevsfhq9onerecfjbcasnu8br9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
