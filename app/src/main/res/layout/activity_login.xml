@@ -4,26 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="#1B1B1B">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Let's Play"
+        android:textColor="@color/white"
+        android:textSize="39sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+    </TextView>
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="419dp"
         android:layout_height="403dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tictactoe" />
+        app:srcCompat="@drawable/tt_mod" />
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/btnSignIn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_width="152dp"
+        android:layout_height="62dp"
+
+        android:layout_marginTop="76dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
